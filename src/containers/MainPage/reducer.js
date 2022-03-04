@@ -12,8 +12,12 @@ const reducer= createReducer(initialState,{
         state.loading=true;
     },
     [actions.getMainPageData.SUCCESS]:(state,{payload})=>{
+        state.loading=false;
         state.data=payload;
-    }
+    },
+     [actions.getMainPageData.REJECT]: (state)=>{
+        state.loading=false;
+    },
 })
 
 const mainPageData = (state)=>state.mainPageReducer.data;
