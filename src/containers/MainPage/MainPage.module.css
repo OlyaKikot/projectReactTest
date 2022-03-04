@@ -1,0 +1,32 @@
+.text{
+   
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.list{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+   
+    color: rgb(15, 15, 15);
+}
+.item{
+margin: 3px;
+font-weight: 500;
+}
+.title{
+ text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow:  1px 1px 2px black;
+}
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.textAccent{
+    color: rgb(202, 117, 117);
+}
